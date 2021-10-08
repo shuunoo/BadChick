@@ -1,22 +1,10 @@
-# Bài 16: Quản lý tài khoản ngân hàng 
-Ngân hàng ABC muốn lưu trữ thông tin của mỗi tài khoản như sau:
-
-- Số tài khoản ( Kiểu long)
-- Tên tài khoản (kiểu chuỗi)
-- Số tiền trong tài khoản (kiểu double)
-
-Thiết kế lớp Account để lưu trữ các thông tin, lớp bao gồm các phương thức sau:
-
-Constructor: Có 2 constructor ( mặc định và đầy đủ tham số)
-Các phương thức get, set cho từng thuộc tính
-Phương thức toString để trả về chuỗi chứa toàn bộ thông tin tài khoản, yêu cầu định dạng tiền tệ.
-
-Thêm các thông tin sau vào lớp Account:
-
-Hằng số lãi suất(1 năm) có giá trị khởi tạo 0.055
-Constructor có 2 đối số: số tài khoản, tên tài khoản. Constructor này sẽ khởi tạo số tiền mặc định là 50
-Phương thức nạp tiền vào tài khoản: Lấy số tiền nạp vào
-Phương thức rút tiền: Lấy số tiền hiện tại trong tài khoản – (số tiền muốn rút+phí rúttiền)
-Phương thức check số tiền khi được đáo hạn: Mỗi lần đến kỳ đáo hạn thì số tiền trong tài khoản = số tiền trong tài khoản + số tiền trong tài khoản * LAISUAT
-Phương thức chuyển khoản từ tài khoản này sang tài khoản khác
-Chú ý: Mỗi thao tác phải kiểm tra số tiền nạp, rút, chuyển có hợp lệ hay không? (VD: tiền nhập vào <0, tiền rút nhiều hơn tiền trong tài khoản thì thông báo không hợp lệ và yêu cầu nhập lại)
+# Bài 17: Chương trình tính diện tích đa giác 
+Hãy xây dựng lớp DaGiac gồm có các thuộc tính: Số cạnh của đa giác, Mảng các số nguyên chứa kích thước các cạnh của đa giác. Các phương thức: Tính chu vi, Tính diện tích, In giá trị các cạnh của đa giác.
+(lớp DaGiac là abstract. Phương thức tính diện tích là abstract, các phương thức khác thì không)
+Xây dựng lớp TamGiac kế thừa từ lớp DaGiac, trong đó viết đè các hàm tính chu vi và xây dựng thêm phương thức tính diện tích tam giác.
+Các lớp cần phải đảm bảo tính đóng gói và kế thừa.
+Xây dựng một ứng dụng Java để nhập vào một dãy gồm n tam giác(dùng mảng để lưu trữ n tam giác) rồi in ra màn hình danh sách theo dạng bảng n tam giác.
+In ra các cạnh của các tam giác có diện tích lớn nhất.
+Tìm kiếm và in ra tam giác theo vị trí (index) nhập vào.
+Xóa 1 tam giác tại vị trí nhập vào.
+Sắp xếp mảng tam giác tăng dần theo diện tích.
