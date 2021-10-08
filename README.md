@@ -1,3 +1,3 @@
-# Bài 2: In ra cây thông
-Đề bài: In ra cây thông như hình bên  
+# Bài 3: In ra tam giác
+Đề bài: In ra tam giác như bên 
 
