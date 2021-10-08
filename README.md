@@ -1,4 +1,3 @@
-# Bài 12: Kiểm tra năm nhuận 
-Đề bài: 
-Năm nhuận là năm chia hết cho 400.
-Năm nhuận là năm chia hết cho 4 nhưng không chia hết cho 100.
+# Bài 13: Đếm số từ trong một chuỗi
+Cho một chuỗi bất kỳ sao cho trong chuỗi đó các từ có thể cách nhau với 1 tab hoặc 1 space hoặc 1 xuống dòng
+Yêu cầu: Đếm số từ trong chuỗi đó
